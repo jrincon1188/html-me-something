@@ -1,0 +1,47 @@
+header{
+  font-family: 'Great Vibes', cursive;
+  background-color: purple;
+  font-size: 2em;
+  color: White;
+  overflow: hidden;
+}
+
+img{
+  float: right;
+  height: 500px;
+  width: 500px;
+}
+
+p {
+  font-family: 'Bad Script', cursive;
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+
+}
+
+header ul{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+  margin: 0;
+  float: right;
+  overflow: hidden;
+  background-color: purple;
+  font-family: serif;
+}
+
+header ul li{
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align:top;
+    float: left;
+    margin-right: 25px;
+    background-color: purple;
+    padding-bottom: 20px;
+}
+
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/55/0c/d8/550cd86c9060bca081c302cceb5b4444--non-disney-princesses-disney-princess-movies.jpg");
+}
