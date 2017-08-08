@@ -7,13 +7,22 @@ header{
 }
 
 img{
-  float: right;
+  margin: auto;
   height: 500px;
-  width: 500px;
+  width: 300px;
+  display: block;
+  margin: auto;
+ 
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 300px;
+    height: 500px;
 }
 
 p {
-  font-family: 'Bad Script', cursive;
+  font-family: 'Reenie Beanie', cursive;
   font-size: 1em;
   color: white;
   font-weight: bold;
@@ -23,7 +32,7 @@ p {
 header ul{
   display: inline-block;
   vertical-align: top;
-  padding-top: 15px;
+  padding-top: 5px;
   margin: 0;
   float: right;
   overflow: hidden;
@@ -32,6 +41,7 @@ header ul{
 }
 
 header ul li{
+    text-decoration: none;
     font-weight: bold;
     font-size: 15px;
     display: inline-block;
@@ -39,9 +49,23 @@ header ul li{
     float: left;
     margin-right: 25px;
     background-color: purple;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+
 }
 
 body {
-    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/55/0c/d8/550cd86c9060bca081c302cceb5b4444--non-disney-princesses-disney-princess-movies.jpg");
+    background-image: url("http://wallpapercave.com/wp/CcGRIfJ.jpg");
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+div.text-box {
+  background-color: purple;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2em; 
+
 }
